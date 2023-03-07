@@ -130,7 +130,7 @@ nav {
 #banner {
     margin-top: -50px;
     height: 530px;
-    background-image: url("CostaImages/HomePage/HomeBanner.jpg");
+    background-image: url("/CostaImages/HomePage/HomeBanner.jpg");
     background-size: cover;
     
 }
