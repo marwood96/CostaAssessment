@@ -25,7 +25,6 @@ body {
     padding: 0;
     background-image: url("https://www.costa.co.uk/static/wavy-background-180786598e741294f08ecaf1990ddc76.png");
     font-family: "CostaText-Regular", "CostaText-Bold", "CostaDisplayWave-Bold";
-    overflow-x: hidden;
 }
 
 header {
