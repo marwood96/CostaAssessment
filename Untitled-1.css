@@ -442,7 +442,7 @@ body#SustainabilityPage {
 }
 
 #banner4 {
-    background-image: url("https://images.ctfassets.net/royi30b2qd26/7fQv8oSMfQvpqgaVV4EsME/8bac768f153fd661f11b478a3d64e2e2/costa-club-boosterthefreeone-redwave-1600x464.jpg");
+    background-image: url("https://raw.githubusercontent.com/marwood96/CostaAssessment/main/CostaImages/CostaClub/CostaClubBanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -455,7 +455,7 @@ body#SustainabilityPage {
     margin-top: -50px;
     height: 530px;
     width: 100%;
-    background-image: url("https://images.ctfassets.net/royi30b2qd26/7cwGkc6CMTn86YCuEkSDsV/58107d8ce0f0803e777a36437e4c3d61/delivery-desktop-v2-1600x464.jpg");
+    background-image: url("https://raw.githubusercontent.com/marwood96/CostaAssessment/main/CostaImages/CostaDelivery/CostaDeliveryBanner.jpg");
     background-size: cover;
     
 }
