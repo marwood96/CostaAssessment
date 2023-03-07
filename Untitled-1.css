@@ -154,8 +154,8 @@ nav {
 
 #backgroundhome1 {
     display: flex;
-    align-items: center;
-    width: 40%;
+    align-items: flex-end;
+    width: 35%;
     position: relative;
     left: 100px;
 }
