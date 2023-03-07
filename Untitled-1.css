@@ -130,7 +130,7 @@ nav {
 #banner {
     margin-top: -50px;
     height: 530px;
-    background-image: url("https://images.ctfassets.net/royi30b2qd26/5klgRQ0jkSeXuWVK1AFnsM/71d9fa349078b36f864922503bd3af76/feb23-ultimateblend-homepagehero-1600x600.jpg");
+    background-image: url(CostaImages/HomePage/HomeBanner.jpg");
     background-size: cover;
     
 }
