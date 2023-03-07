@@ -1,0 +1,603 @@
+@font-face {
+    font-family: "CostaText-Regular";
+    src: url("C:/Users/RyanM/Desktop/Website Assessment 2/Costa website_files/Fonts/CostaText-Regular.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "CostaText-Bold";
+    src: url("C:/Users/RyanM/Desktop/Website Assessment 2/Costa website_files/Fonts/CostaText-Bold.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "CostaDisplayWave-Bold";
+    src: url("C:/Users/RyanM/Desktop/Website Assessment 2/Costa website_files/Fonts/CostaDisplayWave-Bold.ttf") format("truetype");
+
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.costa.co.uk/static/wavy-background-180786598e741294f08ecaf1990ddc76.png");
+    font-family: "CostaText-Regular", "CostaText-Bold", "CostaDisplayWave-Bold";
+}
+
+header {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    margin-top: -16px;
+    overflow: hidden;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 30px;
+    left: 17%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#logo {
+    float: left;
+    padding-right: 50px;
+    overflow: hidden;
+    border:0 none;
+}
+
+
+#logoclick {
+    all: unset;
+}
+
+#logoclick:hover {
+    cursor: pointer;
+}
+
+.menu > ul {
+    display: inline-block;
+    position: relative;
+    font-family: "CostaText-Bold";
+    overflow: hidden;
+}
+
+.menu > li {
+    display: table-cell;
+    position: relative;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 25px 0px 0px;
+    top: 40px;
+    font-family: "CostaText-Bold";
+}
+
+.topmenubutton {
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: "CostaText-Bold";
+}
+
+.topmenubutton:hover {
+    cursor: pointer;
+}
+
+
+#SecondNav {
+    position: relative;
+    bottom: 60px;
+    background-color: rgb(181, 17, 68);
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-family: "CostaText-Bold";
+}
+
+
+.SecondNavList > li {
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    padding: 0px 40px 0px 0px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "CostaText-Bold";
+}
+
+#HomePage {
+    display: block;
+    overflow: hidden;
+}
+
+#banner {
+    margin-top: -50px;
+    height: 530px;
+    background-image: url("https://images.ctfassets.net/royi30b2qd26/5klgRQ0jkSeXuWVK1AFnsM/71d9fa349078b36f864922503bd3af76/feb23-ultimateblend-homepagehero-1600x600.jpg");
+    background-size: cover;
+    
+}
+
+#bannertext1 {
+    width: 50%;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+#BackgroundHome {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    background-color: rgb(244, 243, 239);
+}
+
+#backgroundhome1 {
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    left: 100px;
+}
+
+#backgroundhome2 {
+    position: relative;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "CostaText-Bold";
+    overflow: hidden;
+    text-align: center;
+}
+ 
+#learnmorebutton {
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size: 18px;
+    background: rgb(109, 31, 55);
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+#learnmorebutton:hover {
+    background-color: #B53052;
+}
+
+
+#learnmorebutton1 {
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size: 18px;
+    background: white;
+    color: rgb(109, 31, 55);
+    border-style: none;
+}
+
+#learnmorebutton1:hover {
+    background-color: #B53052;
+}
+
+
+h1 {
+    font-family: "CostaDisplayWave-Bold";
+}
+
+h3 {
+    font-family: "CostaDisplayWave-Bold";
+}
+
+#Whatsnew {
+    position: relative;
+    left: 46%;
+    margin-top: 120px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#newproducts {
+    position: relative;
+    left: 23%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.product1 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(109, 31, 55);
+    margin-right: 30px;
+    float: left;
+}
+
+#productcontent {
+    display: table-cell;
+    position: relative;
+    top: -30px;
+
+    
+}
+
+.product2 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(109, 31, 55);
+    margin-right: 30px;
+    float: left;
+}
+
+.product3 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(109, 31, 55);
+    margin: auto;
+    float: left;
+}
+
+.product4 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(109, 31, 55);
+    margin: auto;
+    margin-left: 30px;
+    float: left;
+}
+
+#newproducts1 {
+    position: relative;
+    left: 12%;
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+
+.commitments {
+    height: 600px;
+    width: 340px;
+    margin-right: 30px;
+    float: left;
+    background-color: rgb(231, 214, 229);
+}
+
+.commitments2 {
+    height: 600px;
+    width: 340px;
+    margin-right: 30px;
+    float: left;
+    background-color: white;
+}
+    
+
+#OurCoffeesPage {
+    display: none;
+}
+
+#OurMenuPage {
+    display: none;
+}
+
+#SustainabilityPage {
+    display: none;
+    background-repeat: repeat;
+}
+
+body#SustainabilityPage {
+    background-image: none;
+}
+
+
+#PrivacyPolicyPage {
+    display: none;
+}
+
+#CookiePage {
+    display: none;
+}
+
+#TermsPage {
+    display: none;
+}
+
+#banner2 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("https://images.ctfassets.net/royi30b2qd26/3iCctWLkvmU0uGkUFBskwv/20cbe9597b7528558d102b83676fac79/feb23-signatureblend-neverbeanbetter-standardhero-1600x464.png");
+    background-size: cover;
+    
+}
+
+#container1 {
+    background-color: white;
+    margin: auto;
+    width: 65%;
+    display: grid;
+}
+
+#container2 {
+    display: none;
+    
+}
+
+#container3 {
+    display: none;
+    width: 70%;
+    margin: auto;
+}
+
+#container4 {
+    position: relative;
+    width: 1300px;
+    margin: auto;
+    display: table-row;
+    top: 330px;
+    left: 25%;
+}
+
+#container5 {
+    position: relative;
+    left: 330px;
+    top: 285px;
+    height: 300px;
+    margin: auto;
+    display: table-row;
+    background-color: white;
+}
+
+
+
+#container7{
+    position: relative;
+    left: 310px;
+    margin: auto;
+    display: table-row;
+}
+
+#container8 {
+    background-color: white;
+    margin: auto;
+    width: 65%;
+    display: grid;
+    margin-top: 170px;
+}
+
+#container9 {
+    width: 50%;
+    position: relative;
+    left: 20%;
+    background-color: white;
+    display: inline-block;
+    padding: 50px 100px 50px 100px;
+    margin-bottom: 100px;
+}
+
+.listing {
+    height: 340px;
+    width: 270px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "CostaText-Bold";
+    color: rgb(109, 31, 55);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.box {
+    display: inline-table;
+    background-color: white;
+    font-size: 18px;
+    padding: 30px 30px 30px 30px;
+    
+    
+}
+
+
+
+.box2 {
+    display: grid;
+    background-color: white;
+    margin: auto;
+    width: 70%;
+}
+
+.box3 {
+    position: relative;
+    top: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+#banner3 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("https://www.costa.co.uk/static/menu-hero-desktop-56bd82b6cf8c300d1931f21972113edc.jpg");
+    background-size: cover;
+    
+}
+
+#CostaClubPage {
+    display: none;
+}
+
+#banner4 {
+    background-image: url("https://images.ctfassets.net/royi30b2qd26/7fQv8oSMfQvpqgaVV4EsME/8bac768f153fd661f11b478a3d64e2e2/costa-club-boosterthefreeone-redwave-1600x464.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#OrderOnlinePage {
+    display: none;
+}
+
+#banner5 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("https://images.ctfassets.net/royi30b2qd26/7cwGkc6CMTn86YCuEkSDsV/58107d8ce0f0803e777a36437e4c3d61/delivery-desktop-v2-1600x464.jpg");
+    background-size: cover;
+    
+}
+
+#banner6 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("https://images.ctfassets.net/royi30b2qd26/5fSwKKUTMBYxOHp84lX3kC/d8fb76d6aef0eea911bd6609eb5aa16d/sustainability-hero-green-red-wave-1600x464.jpg");
+    background-size: cover;
+}
+
+#PrivacyPolicyPage > a {
+    color: #B53052;
+}
+
+#PrivacyPolicyPage > a:hover {
+    color: aqua;
+}
+
+#PrivacyPolicyPage > li {
+    color: #B53052;
+}
+
+.menu > li:nth-child(6) {
+    padding-right: 120px;
+}
+
+.OrderApps {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 23%;
+    margin-bottom: 200px;
+}
+
+.OrderApps2 {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 23%;
+    margin-bottom: 200px;
+}
+
+
+footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+#upperfooter {
+    background-color: rgb(181, 17, 68);
+}
+
+.footerlists {
+    position: relative;
+    left: 37%;
+    display: table-cell;
+    color: white;
+    
+}
+
+
+h6 {
+    font-size: 18px;
+}
+
+.footerlists > li {
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 200px;
+}
+
+.footerlists {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footerlists > li:last-child {
+    padding-bottom: 50px;
+}
+
+#footerlower {
+    width: 100%;
+    background-color: rgb(109, 31, 55);
+    padding: 22px 0px 18px 0px;
+
+}
+
+.lowerfooterlists > li {
+    position: relative;
+    left: 23%;
+    display: inline-block;
+    color: white;
+    padding: 0px 80px 0px 0px;
+    font-size: 18px;
+}
+
+.footerbuttons {
+    all: unset;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 1981px) {
+.footerlists {
+    position: relative;
+    left: 600px;
+}
+
+#newproducts {
+    position: relative;
+    left: 720px;
+    }
+
+#navbar {
+    position: relative;
+    left: 230px;
+}
+
+#container7 {
+    position: relative;
+    left: 600px;
+}
+
+#content2 {
+    position: relative;
+    left: 290px;
+}
+
+.OrderApps {
+    position: relative;
+    left: 740px;
+}
+
+.OrderApps2 {
+    position: relative;
+    left: 740px;
+}
+
+#newproducts1 {
+    position: relative;
+    left: 530px;  
+}
