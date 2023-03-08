@@ -523,6 +523,19 @@ h6 {
     font-size: 18px;
 }
 
+.footermenubutton {
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background: none;
+    font-family: "CostaText-Bold";
+}
+
+.footermenubutton:hover {
+    cursor: pointer;
+}
+
 .footerlists > li {
     padding-bottom: 10px;
     font-size: 18px;
