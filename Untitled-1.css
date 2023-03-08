@@ -1,18 +1,18 @@
 @font-face {
     font-family: "CostaText-Regular";
-    src: url("Costa website_files/Fonts/CostaText-Regular.ttf") format("truetype");
+    src: url("Fonts/CostaText-Regular.ttf") format("truetype");
 
 }
 
 @font-face {
     font-family: "CostaText-Bold";
-    src: url("Costa website_files/Fonts/CostaText-Bold.ttf") format("truetype");
+    src: url("Fonts/CostaText-Bold.ttf") format("truetype");
 
 }
 
 @font-face {
     font-family: "CostaDisplayWave-Bold";
-    src: url("Costa website_files/Fonts/CostaDisplayWave-Bold.ttf") format("truetype");
+    src: url("Fonts/CostaDisplayWave-Bold.ttf") format("truetype");
 
 }
 
