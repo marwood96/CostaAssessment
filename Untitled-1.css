@@ -532,15 +532,18 @@ h6 {
 }
 
 .footerlists > li > a {
-    all: unset;
+    color: white;
+    text-decoration: none;
 }
 
 .footerlists > a {
-    all: unset;
+    color: white;
+    text-decoration: none;
 }
 
 .footerlists > ul > a {
-    all: unset;
+    color: white;
+    text-decoration: none;
 }  
  
 
@@ -567,6 +570,7 @@ h6 {
     color: white;
     padding: 0px 80px 0px 0px;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .footerbuttons {
