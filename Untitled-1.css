@@ -531,6 +531,10 @@ h6 {
     text-decoration: none;
 }
 
+.footerlists > li > a {
+    all: unset;
+}
+
 .footerlists {
     list-style-type: none;
     font-size: 18px;
