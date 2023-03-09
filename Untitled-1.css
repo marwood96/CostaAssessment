@@ -565,7 +565,7 @@ h6 {
 
 .lowerfooterlists > li {
     position: relative;
-    left: 13%;
+    left: 15%;
     display: inline-block;
     color: white;
     padding: 0px 80px 0px 0px;
@@ -576,6 +576,14 @@ h6 {
 .footerbuttons {
     all: unset;
     cursor: pointer;
+}
+
+.SocialIcons {
+    margin-right: -50px;
+}
+
+.lowerfooterlists > li:nth-child(4) {
+    margin-right: 150px;
 }
 
 
