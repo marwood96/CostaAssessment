@@ -248,3 +248,34 @@ function myFunction9() {
   }
 
 
+function newWindow() {
+    var link = document.createElement("a")
+    link.href = "https://www.facebook.com/CostaCoffee/"
+    link.target = "_blank"
+    link.click()
+  }
+
+
+function newWindow2() {
+    var link = document.createElement("a")
+    link.href = "https://www.instagram.com/costacoffee/"
+    link.target = "_blank"
+    link.click()
+  }
+
+
+function newWindow3() {
+    var link = document.createElement("a")
+    link.href = "https://twitter.com/CostaCoffee"
+    link.target = "_blank"
+    link.click()
+  }
+
+
+function newWindow4() {
+    var link = document.createElement("a")
+    link.href = "https://www.youtube.com/user/forcoffeelovers"
+    link.target = "_blank"
+    link.click()
+  }
+
