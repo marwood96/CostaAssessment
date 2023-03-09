@@ -584,6 +584,7 @@ h6 {
 
 .SocialIcons > button {
     all: unset;
+    cursor: pointer;
 }
 
 .lowerfooterlists > li:nth-child(4) {
