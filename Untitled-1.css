@@ -587,13 +587,6 @@ h6 {
     cursor: pointer;
 }
 
-.SocialIcons > a {
-    cursor: pointer;
-}
-
-.SocialIcons > li > a {
-    cursor: pointer;
-}
 
 .lowerfooterlists > li:nth-child(4) {
     margin-right: 150px;
