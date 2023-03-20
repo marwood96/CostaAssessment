@@ -19,10 +19,8 @@ function myFunction() {
         document.getElementById("privacybutton").disabled = false;
         document.getElementById("cookiebutton").disabled = false;
         document.getElementById("termsbutton").disabled = false;
-        ourCoffees.style.borderBottom = "thick solid #0000FF";
     } else {
         OurCoffeesPage.style.display = "none";
-        ourCoffees.style.borderBottom = "none";
     }
   }
 
