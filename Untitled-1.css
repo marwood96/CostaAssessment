@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-image: url("https://www.costa.co.uk/static/wavy-background-180786598e741294f08ecaf1990ddc76.png");
+    background-image: url("https://raw.githubusercontent.com/marwood96/CostaAssessment/main/CostaImages/Background.png");
     font-family: "CostaText-Regular", "CostaText-Bold", "CostaDisplayWave-Bold";
 }
 
