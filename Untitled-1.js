@@ -1,3 +1,5 @@
+// Hides and displays elements when buttons are clicked:
+
 function myFunction() {
     var OurCoffeesPage = document.getElementById("OurCoffeesPage");
     if (OurCoffeesPage.style.display === "none") {
@@ -247,6 +249,8 @@ function myFunction9() {
     }
   }
 
+
+// Opens links in new tab:
 
 function newWindow() {
     var link = document.createElement("a")
